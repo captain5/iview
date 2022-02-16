@@ -14,7 +14,7 @@ const resolve = dir => {
 // iview-admin线上演示打包路径： https://file.iviewui.com/admin-dist/
 const BASE_URL = process.env.NODE_ENV === 'production' ?
   '/iview-admin-amend' :
-  '/'
+  '/iview-admin-amend'
 
 module.exports = {
   // Project deployment base
